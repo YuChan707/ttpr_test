@@ -1,0 +1,20 @@
+[
+    {
+        "Username": "Ann48",
+        "Name": "Anna",
+        "Last Name": "Smith",
+        "direction": " street 200, NY, 11332",
+        "ActiveAccount": true,
+        "PremiumAccount": false,
+        "Points": 20
+    },
+    {
+        "Username": "Cat303",
+        "Name": "John",
+        "Last Name": "Li",
+        "direction": " street 448, NY, 10032",
+        "ActiveAccount": true,
+        "PremiumAccount": true,
+        "Points": 300
+    }
+]

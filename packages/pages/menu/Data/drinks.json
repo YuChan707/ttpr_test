@@ -1,0 +1,188 @@
+{
+  "BobaTea": [
+    {
+      "name": "Classic Milk Tea",
+      "information": {
+        "price": 4.40,
+        "calories": 240,
+        "ingredients": ["Black Tea", "Milk", "Sugar", "Pearls"],
+        "isNew": false,
+        "temperature": "both"
+      }
+    },
+    {
+      "name": "Chai Milk Tea",
+      "information": {
+        "price": 4.50,
+        "calories": 260,
+        "ingredients": ["Chai", "Milk", "Sugar", "Black Boba"],
+        "isNew": false,
+        "temperature": "both"
+      }
+    },
+    {
+      "name": "Taro Milk Tea",
+      "information": {
+        "price": 4.70,
+        "calories": 320,
+        "ingredients": ["Black Tea", "Taro", "Milk", "Sugar", "Black Boba"],
+        "isNew": false,
+        "temperature": "both"
+      }
+    },
+    {
+      "name": "Coffee Milk Tea",
+      "information": {
+        "price": 4.70,
+        "calories": 310,
+        "ingredients": ["Coffee", "Milk", "Sugar", "Black Boba"],
+        "isNew": false,
+        "temperature": "both"
+      }
+    },
+    {
+      "name": "Guava Black Tea",
+      "information": {
+        "price": 4.30,
+        "calories": 150,
+        "ingredients": ["Black Tea", "Guava", "Sugar", "Pearls"],
+        "isNew": false,
+        "temperature": "both"
+      }
+    },
+    {
+      "name": "Mixed Berry Fruit Tea",
+      "information": {
+        "price": 4.60,
+        "calories": 170,
+        "ingredients": ["Black Tea", "Mixed Berries", "Sugar", "Jelly"],
+        "isNew": true,
+        "temperature": "both"
+      }
+    }
+  ],
+  "MatchaTea": [
+    {
+      "name": "Classic Matcha Milk Tea",
+      "information": {
+        "price": 4.50,
+        "calories": 250,
+        "ingredients": ["Matcha", "Milk", "Sugar", "Pearls"],
+        "isNew": false,
+        "temperature": "both"
+      }
+    },
+    {
+      "name": "Iced Matcha Lemonade",
+      "information": {
+        "price": 4.20,
+        "calories": 180,
+        "ingredients": ["Matcha", "Lemon", "Sugar", "Jelly"],
+        "isNew": true,
+        "temperature": "cold"
+      }
+    },
+    {
+      "name": "Strawberry Matcha Milk Tea",
+      "information": {
+        "price": 4.80,
+        "calories": 280,
+        "ingredients": ["Matcha", "Milk", "Strawberry", "Black Boba"],
+        "isNew": true,
+        "temperature": "both"
+      }
+    },
+    {
+      "name": "Matcha Latte",
+      "information": {
+        "price": 4.70,
+        "calories": 280,
+        "ingredients": ["Matcha", "Milk", "Sugar", "Pearls"],
+        "isNew": false,
+        "temperature": "both"
+      }
+    },
+    {
+      "name": "Matcha Red Bean Milk Tea",
+      "information": {
+        "price": 4.90,
+        "calories": 300,
+        "ingredients": ["Matcha", "Milk", "Red Bean", "Pearls"],
+        "isNew": false,
+        "temperature": "both"
+      }
+    },
+    {
+      "name": "Matcha Cookie Crumble Milk Tea",
+      "information": {
+        "price": 5.00,
+        "calories": 320,
+        "ingredients": ["Matcha", "Milk", "Cookie Crumble", "Black Boba"],
+        "isNew": true,
+        "temperature": "both"
+      }
+    }
+  ],
+  "SlushTea": [
+    {
+      "name": "Matcha Mango Slush",
+      "information": {
+        "price": 5.00,
+        "calories": 300,
+        "ingredients": ["Matcha", "Mango", "Ice", "Sugar", "Popping Boba"],
+        "isNew": true,
+        "temperature": "cold"
+      }
+    },
+    {
+      "name": "Blueberry Slush",
+      "information": {
+        "price": 4.90,
+        "calories": 210,
+        "ingredients": ["Blueberry", "Ice", "Sugar", "Jelly"],
+        "isNew": true,
+        "temperature": "cold"
+      }
+    },
+    {
+      "name": "Mango Peach Slush",
+      "information": {
+        "price": 5.10,
+        "calories": 190,
+        "ingredients": ["Mango", "Peach", "Ice", "Sugar", "Pearls"],
+        "isNew": true,
+        "temperature": "cold"
+      }
+    },
+    {
+      "name": "Dragonfruit Slush",
+      "information": {
+        "price": 5.30,
+        "calories": 200,
+        "ingredients": ["Dragonfruit", "Ice", "Sugar", "Jelly"],
+        "isNew": true,
+        "temperature": "cold"
+      }
+    },
+    {
+      "name": "Strawberry Milk Slush",
+      "information": {
+        "price": 5.00,
+        "calories": 250,
+        "ingredients": ["Strawberry", "Milk", "Ice", "Sugar", "Popping Boba"],
+        "isNew": true,
+        "temperature": "cold"
+      }
+    },
+    {
+      "name": "Watermelon Slush",
+      "information": {
+        "price": 4.90,
+        "calories": 160,
+        "ingredients": ["Watermelon", "Ice", "Sugar", "Popping Boba"],
+        "isNew": true,
+        "temperature": "cold"
+      }
+    }
+  ]
+}
