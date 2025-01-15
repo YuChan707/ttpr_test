@@ -13,18 +13,18 @@
     color: #F2C4A2
 }
 
-.login {
+.header a {
     padding: 10px;
     /*background-color: red;*/
     color:#ddd;
 }
-.login:visited {
+.header a {
     color: black;
 }
-.login:hover {
+.header a {
     color: hotpink;
   }
-.login:active {
+.header a {
     color: blue;
   }
 

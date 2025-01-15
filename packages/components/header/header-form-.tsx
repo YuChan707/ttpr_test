@@ -7,15 +7,16 @@ export const Header = (): any => {//any = unknow type data /anything
     return (
         <>
             <div className="top">
-                <div> <p> <strong className="titled"> Meow Tea</strong> </p>
-                </div>
-                <div className="login"> <a href="./login/having-account/login.html">login</a> </div>
+                <div> <p> <strong className="titled"> Meow Tea</strong> 
+                <img className="logo" src={"/packages/images/matcha_boba_tea.png"} alt="logo matcha boba tea smiling"/>
+                </p></div>
+                <div className="login"> <a href="/packages/pages/login/base_login.html">login</a> </div>
             </div>
-            <div> Welcome {username} </div>
+            <div className='name-header'> Welcome {username} </div>
             <div className="header">
-                <a href="index.html">Home</a>
-                <a href="/packages/pages/menu/menu.html">Menu</a>
-                <a href="/packages/pages/vision/vision.html">Vision</a>
+                <a href="index.html">Home</a> 
+                <span> </span><a href="/packages/pages/menu/menu.html">Menu</a>
+                <span> </span><a href="/packages/pages/vision/vision.html">Vision</a>
             </div>
         </>
     )

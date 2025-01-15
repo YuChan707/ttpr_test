@@ -40,14 +40,18 @@ export const SweetList = ({search}:{search:string}) => {
     const {sweets} = UsingSweetData(search)
     return(
         <>
+        <div className='cat'>
         <h2 className='subtitle'>Cat Sweet Shape</h2>
         {sweets.catShapedSweets.map(theSweet =>{
             return <SweetItem key={theSweet.name} theSweet={theSweet} /> 
         })}
+        </div>
+        <div className='mouse'>
         <h2 className='subtitle' >Mouse Sweet Shape</h2>
         {sweets.MouseShapeSweets.map(theSweet =>{
             return <SweetItem key={theSweet.name} theSweet={theSweet} /> 
         })}
+        </div>
         </>
     )
 }

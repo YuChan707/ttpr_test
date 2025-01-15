@@ -13,19 +13,19 @@
     color: #F2C4A2
 }
 
-.login {
+.login a{
     padding: 10px;
     /*background-color: red;*/
     color:#ddd;
 }
-.login:visited {
-    color: black;
+.login:visited a{
+    color: rgb(255, 0, 0);
 }
-.login:hover {
+.login:hover a{
     color: hotpink;
   }
-.login:active {
-    color: blue;
+.login:active a{
+    color: rgb(229, 255, 0);
   }
 
 
@@ -38,3 +38,18 @@
     text-align: center;
     font-size: 23px;
 }
+
+.header a {
+    padding: 10px;
+    /*background-color: red;*/
+    color:#ddd;
+}
+.header a {
+    color: black;
+}
+.header a {
+    color: hotpink;
+  }
+.header a {
+    color: rgb(182, 182, 249);
+  }

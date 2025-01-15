@@ -2,8 +2,8 @@ import React from 'react'
 //check here
 import { createRoot } from 'react-dom/client'
 
-import { App_sweet } from './app_sweet'
-import { App_drink } from './app_drink'
+//import { App_sweet } from './app_sweet'
+//import { App_drink } from './app_drink'
 import {Search_Component} from './components/search_container'
 
 //! helpfully to check if there exist, defined or udnerfined
@@ -23,4 +23,11 @@ const rootSearching = createRoot(
     document.getElementById('searching')
 )
 rootSearching.render(<Search_Component/>)
+
+/*import { App } from '../../../componets/header/header-app.tsx'
+
+const rootElement = document.querySelector('.test')
+
+    const root = createRoot(rootElement)
+    root.render(<App />)*/
 
