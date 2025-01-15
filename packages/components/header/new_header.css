@@ -1,0 +1,40 @@
+.top{
+    font-weight: bold;
+    background-color: rgb(124, 68, 79);
+    border-radius: 10px;
+
+    display: flex; /* Enables flexbox */
+    justify-content: space-between; /* Positions children on opposite ends */
+    align-items: center; /* Vertically aligns items */
+}
+.top .titled{
+    font-size: 40px;
+    padding: 10px;
+    color: #F2C4A2
+}
+
+.header a {
+    padding: 10px;
+    /*background-color: red;*/
+    color:#ddd;
+}
+.header a {
+    color: black;
+}
+.header a {
+    color: hotpink;
+  }
+.header a {
+    color: blue;
+  }
+
+
+.logo
+{
+    width: 40px;
+}
+
+.header{
+    text-align: center;
+    font-size: 23px;
+}

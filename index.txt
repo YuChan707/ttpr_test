@@ -12,11 +12,9 @@
 
 <body>
     <header>
-        <div Class="test">
+        <div id="test">
 
         </div>
-        <script type="module" src="./indexForHTML.tsx"></script>
-        <!---
         <div class="top">
             <div>
                 <p> <strong class="titled"> Meow Tea</strong>
@@ -30,7 +28,6 @@
         <a href="/packages/pages/menu/menu.html">Menu</a>
         <a href="/packages/pages/vision/vision.html">Vision</a>
     </div>
-        --->
     </header>
 
     <h2 class="test">Welcome to Boba Tea</h2>

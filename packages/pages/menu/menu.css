@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(82, 46, 53);
+
+}
+.item{
+    text-align: left;
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+.subtitle{
+    text-align: center;
+}
+.title{
+    text-align: center;
+    color: white;
+}
+
+.boba{
+    background-color: RGBA(159, 191, 179, 1);
+}
+.matcha{
+    background-color: RGBA(200, 216, 183, 1);
+
+}
+.slush{
+    background-color: RGBA(193, 177, 196,1);
+}
+.cat{
+    background-color: RGBA(180, 212, 236,1)
+}
+.mouse{
+    background-color: RGBA(227, 205, 188,1);
+}
+.boba, .matcha, .slush, .cat, .mouse{
+    border-radius: 20px;
+    margin: calc(5% + 5px);;
+    padding-bottom:20px;
+    padding-top: 10px;
+}
+.design-form{
+    align-items: center;
+    text-align: center;
+}
+.input-item{
+    width: 50%;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 15px;
+    font-size: 18px;
+    padding:5px;
+}
+.input-item[type=text]:focus {
+    border: 3px solid #555;
+  }
+.label-menu{
+    font-size: 18px;
+    color:white
+}

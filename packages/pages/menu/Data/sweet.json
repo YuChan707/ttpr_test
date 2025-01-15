@@ -1,0 +1,139 @@
+{
+  "catShapedSweets": [
+    {
+      "name": "Cat Paw Sugar Cookies",
+      "information": {
+        "id_sweet": 1,
+        "type": "Cookie",
+        "price": 3.50,
+        "calories": 180,
+        "ingredients": [
+          "Flour",
+          "Butter",
+          "Sugar",
+          "Vanilla",
+          "Pink Icing"
+        ],
+        "isNew": false
+      }
+    },
+    {
+      "name": "Whisker Tiramisu Cake",
+      "information": {
+        "id_sweet": 2,
+        "type": "Cake",
+        "price": 6.00,
+        "calories": 320,
+        "ingredients": [
+          "Mascarpone",
+          "Espresso",
+          "Ladyfingers",
+          "Cocoa Powder",
+          "Chocolate Whisker Design"
+        ],
+        "isNew": true
+      }
+    },
+    {
+      "name": "Cat Ear Strawberry Jelly",
+      "information": {
+        "id_sweet": 3,
+        "type": "Jelly",
+        "price": 4.20,
+        "calories": 150,
+        "ingredients": [
+          "Strawberry Juice",
+          "Gelatin",
+          "Sugar",
+          "Edible Gold Flakes"
+        ],
+        "isNew": true
+      }
+    },
+    {
+      "name": "Choco-Cat Ice Cream Sundae",
+      "information": {
+        "id_sweet": 4,
+        "type": "Ice Cream",
+        "price": 5.50,
+        "calories": 290,
+        "ingredients": [
+          "Chocolate Ice Cream",
+          "Whipped Cream",
+          "Chocolate Ears",
+          "Cat Face Design"
+        ],
+        "isNew": false
+      }
+    },
+    {
+      "name": "Vanilla Cat Macarons",
+      "information": {
+        "id_sweet": 5,
+        "type": "Cookie",
+        "price": 2.80,
+        "calories": 120,
+        "ingredients": [
+          "Almond Flour",
+          "Sugar",
+          "Egg Whites",
+          "Vanilla Filling",
+          "Edible Ink Design"
+        ],
+        "isNew": true
+      }
+    },
+    {
+      "name": "Mochi Cat Trio",
+      "information": {
+        "id_sweet": 6,
+        "type": "Mochi",
+        "price": 5.00,
+        "calories": 220,
+        "ingredients": [
+          "Glutinous Rice Flour",
+          "Matcha Filling",
+          "Red Bean Filling",
+          "Black Sesame Filling"
+        ],
+        "isNew": true
+      }
+    }
+  ],
+  "MouseShapeSweets": [
+    {
+      "name": "Mouse Sugar Cookies",
+      "information": {
+        "id_sweet": 7,
+        "type": "Cookie",
+        "price": 3.20,
+        "calories": 150,
+        "ingredients": [
+          "Flour",
+          "Butter",
+          "Sugar",
+          "Vanilla",
+          "Pink Icing"
+        ],
+        "isNew": true
+      }
+    },
+    {
+      "name": "Mochi Oreo Grey",
+      "information": {
+        "id_sweet": 8,
+        "type": "Mochi",
+        "price": 7.00,
+        "calories": 350,
+        "ingredients": [
+          "Mascarpone",
+          "Espresso",
+          "Ladyfingers",
+          "Oreo Powder",
+          "Chocolate Whisker Design"
+        ],
+        "isNew": false
+      }
+    }
+  ]
+}
