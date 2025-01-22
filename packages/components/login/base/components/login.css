@@ -1,0 +1,28 @@
+.base_header{
+    font-weight: bold;
+    background-color: rgb(124, 68, 79);
+    border-radius: 10px;
+
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.titled{
+    font-size: 40px;
+    padding: 10px;
+    color: #F2C4A2
+}
+.logo
+{
+    width: 40px;
+}
+
+
+body {
+    background-color: #321414;
+}
+.box-base{
+    
+    color:aliceblue
+}
