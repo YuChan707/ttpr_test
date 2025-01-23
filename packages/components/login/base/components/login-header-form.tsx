@@ -7,8 +7,8 @@ export const LoginHeader = (): any => {//any = unknow type data /anything
         <>
         <div className='centralize-header'>
             <div className="base_header">
-                <div> <p> <strong className="titled"> Meow Tea</strong> 
-                <img className="logo" src={"/packages/images/matcha_boba_tea.png"} alt="logo matcha boba tea smiling"/></p>
+                <div> <a href='index.html'><p> <strong className="titled"> Meow Tea</strong> 
+                <img className="logo" src={"/packages/images/matcha_boba_tea.png"} alt="logo matcha boba tea smiling"/></p></a>
                 </div>
             </div>
             </div>

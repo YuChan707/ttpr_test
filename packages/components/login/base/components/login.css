@@ -8,6 +8,9 @@
     justify-content: center;
     width: 50%;
 }
+a, u {
+    text-decoration: none;
+  }
 .centralize-header{
     display: flex;
     align-items: center;
