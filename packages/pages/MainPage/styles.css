@@ -1,10 +1,9 @@
 .background-Img{
-
     place-items: center;
-    padding:10px;
 }
 body{
-    background-color: #181717;
+    background:linear-gradient(rgba(0,51,102,0.5),transparent);
+    background-color: #001002;
 }
 .main-part{
     width: 50px;
