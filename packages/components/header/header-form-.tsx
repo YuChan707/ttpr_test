@@ -3,7 +3,7 @@ import './new_header.css'
 
 
 export const Header = (): any => {//any = unknow type data /anything
-    const username = 'Anna';
+    const username = ' ';
     return (
         <>
             <div className="top">
