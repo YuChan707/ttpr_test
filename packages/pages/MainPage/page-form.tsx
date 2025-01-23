@@ -17,16 +17,16 @@ export const BaseMP = () => {
 
     return (
         <>
+        <br></br>
             <div>
                 <div className="background-Img"
                     style={backgroundGif}>
-                    <p>TEST</p>
-                    <p>TEST</p>
-                    <p>TEST</p>
-                    <p>TEST</p>
+                        <div className="main-part">
+                            WELCOME
+                        </div>
                 </div>
             </div>
-            <div>
+            <div className="information">
                 <h2 className="Title">Welcome to Boba Tea</h2>
                 <p className='body-MP'>where your love for matcha and cats comes to life! We pride ourselves on using the freshest, highest-quality ingredients to craft our signature matcha drinks and delightful boba creations.</p>
                 <img
