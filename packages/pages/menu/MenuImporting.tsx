@@ -18,16 +18,13 @@ const root2 = createRoot(
 )
 root2.render(<App_drink />)*/
 
+const rootSearching = document.getElementById('searching')
 
-const rootSearching = createRoot(
-    document.getElementById('searching')
-)
-rootSearching.render(<Search_Component/>)
+if(rootSearching){
+    const root = createRoot(rootSearching)
+    root.render(<Search_Component/>)
+}else {
+    console.error('Element with class test not found.')
+}
 
-/*import { App } from '../../../componets/header/header-app.tsx'
-
-const rootElement = document.querySelector('.test')
-
-    const root = createRoot(rootElement)
-    root.render(<App />)*/
 
