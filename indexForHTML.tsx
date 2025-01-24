@@ -2,7 +2,7 @@ import React from 'react'
 import { createRoot } from 'react-dom/client'
 import { App } from './packages/components/header/header-app.tsx'
 import {ForAppMP} from './packages/pages/MainPage/TogetherMainPage.tsx'
-const rootElement = document.querySelector('.test')
+const rootElement = document.querySelector('.MainPage')
 
 if (rootElement) {
     const root = createRoot(rootElement)

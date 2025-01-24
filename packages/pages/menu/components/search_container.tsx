@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { DrinkList } from "./drink_list";
 import { SweetList } from "./sweet_list";
 import '../menu.css'
-
+import { App } from '../../../components/header/header-app.tsx'
 export const Search_Component = () => {
     //useState try
     const [searchItem, searchSet] = useState("")
@@ -15,6 +15,10 @@ export const Search_Component = () => {
     //on change
     //button
     return (
+        <>
+        <header>
+            <App/>
+        </header>
         <div className='design-form'>
             <form>
                 <label className="label-menu"> 🍬 What do you want?</label>
@@ -33,5 +37,6 @@ export const Search_Component = () => {
             <h2 className='title'>SWEETS</h2>
             <SweetList search={searchItem.toLowerCase()} />
         </div>
+        </>
     )
 }

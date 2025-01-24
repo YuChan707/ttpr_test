@@ -33,6 +33,7 @@ export const BaseMP = () => {
                     id="cat_img"
                     src={"../../../packages/images/cat_cake.png"}
                     alt="Siamese cat with a strawberry cake cartoon"
+                    style={{ maxWidth: '100%' }}
                 />
             </div>
         </>
