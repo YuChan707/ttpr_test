@@ -18,11 +18,12 @@ export const Header = (): any => {//any = unknow type data /anything
 
                 <a href="/packages/components/login/base_login.html">login</a> </div>
             </div>
-            <div className='name-header'> Welcome {username} </div>
+            {/*<div className='name-header'> Welcome {username} </div>*/}
             <div className="header">
-                <a href="index.html">Home</a> 
-                <span> </span><a href="/packages/pages/menu/menu.html">Menu</a>
-                <span> </span><a href="/packages/pages/vision/vision.html">Vision</a>
+
+                <a className="buttonHeader" href="index.html">Home</a> 
+                <span> </span><a className="buttonHeader" href="/packages/pages/menu/menu.html">Menu</a>
+                <span> </span><a className="buttonHeader" href="/packages/pages/vision/vision.html">Vision</a>
             </div>
         </>
     )

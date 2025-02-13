@@ -1,7 +1,7 @@
 import React from 'react'
 import { DrinkData} from '../type_/drink_data'
 //import {drinkImportData} from '../Data/drinks.json'
-import '../menu.css'
+import '../../menu/menu.css'
 
 type DrinkItemShow = {
     theDrink: DrinkData
