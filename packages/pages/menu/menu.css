@@ -14,6 +14,7 @@ body{
 .title{
     text-align: center;
     color: white;
+    padding: -10px;
 }
 
 .boba{
@@ -35,7 +36,10 @@ body{
 .boba, .matcha, .slush, .cat, .mouse{
     align-items: center;
     border-radius: 20px;
-    margin: calc(5% + 1px);
+    margin-left: calc(5% + 1px);
+    margin-top: calc(10%+0.1px);
+    margin-right: calc(5% + 1px);
+    margin-bottom: 20px;
     padding-bottom:20px;
     padding-top: 10px;
 }
